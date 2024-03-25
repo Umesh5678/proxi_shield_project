@@ -2,6 +2,7 @@ import React from "react";
 import './Style.css';
 import { Link } from "react-router-dom";
 import logo from './Images/PROXI SHIELD LOGO FINAL.png';
+import EmailLink from "./EmailLink";
 
 export default function Footer(){
     const scrollToTop = () => {
@@ -16,7 +17,7 @@ export default function Footer(){
         <div className="container-fluid  p-5 " style={{color:"black"}}>
             <div className="row">
                <div className="col-md-3">
-                    <img src={logo} width={300} alt=""/>
+                    <img src={logo} width={300} alt="som"/>
                     
                </div>
                <div className="col-md-3 pl-5">
@@ -33,7 +34,7 @@ export default function Footer(){
                     <h2>Contact Info</h2>
                     <p className="mt-4"><i className="text-primary fa-solid fa-location-dot"></i> Registered Office : Proxi Shield Pvt Ltd. <br /> Gat No. 1282 , Ganga club , Haveli , Pune, (Near Panchashil Tower),Kharadi. <br /> Opp. Dhole Patil Engi. College </p>
                     <h6 className="mt-2">Phone:+91 88050 81326</h6>
-                    <h6 className="mt-2">Email: <a href="mailto:proxishieldpune@gmail.com"></a>proxishieldpune@gmail.com</h6>
+                    <h6 className="mt-2 footer_email">Email:<EmailLink email="proxishieldpune@gmail.com" /></h6>
                     {/* <h6 className="mt-1">CIN-U24114TG2006PTC0501</h6> */}
                     
                </div>

@@ -4,7 +4,7 @@ import Company from "./Company.jsx";
 import Product from "./Product.jsx";
 import Contact from "./Contact.jsx";
 // import Saleresponsive from "./SaleResponsive.jsx";
-import Navbar from "./Navbar.jsx";
+
 import Footer from "./Footer.jsx";
 import {BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import DotLoader from "react-spinners/DotLoader";

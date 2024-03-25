@@ -25,6 +25,11 @@
   margin-right: 40px;
   
 }
+
+.color_format_back ul li a{
+  text-decoration: none;
+  color: white;
+}
 .nav-link{
     color: white !important;
     font-weight: bold;
@@ -608,3 +613,17 @@ padding-left: 40px;
 /* .industrial_market_image .card:hover{
   zoom: 1.3;
 } */
+
+
+.email_link a{
+  color: white;
+  text-decoration: none;
+}
+
+
+
+
+.footer_email a{
+  text-decoration: none;
+  color: black;
+}

@@ -2,6 +2,7 @@ import React,{useState} from 'react';
 import {NavLink, Link} from 'react-router-dom';
 import {FiAlignRight,FiXCircle,FiChevronDown } from "react-icons/fi";
 import logo from './Images/Proxi shield (2) (1).png'
+import EmailLink from './EmailLink';
 // import logo from '../../img/logo.png';
 const Nav = () => {
     const [isMenu, setisMenu] = useState(false);
@@ -32,12 +33,12 @@ const Nav = () => {
             <div className="row">
                 <div className="col-md-3">
                     
-                    <center><img src={logo} width="200" height={80} className=""/></center>
+                    <center><img src={logo} width="200" height={80} className="" alt='something'/></center>
                 </div>
                 <div className="col-md-9 d-none d-md-block pe-3">
                 <ul>
-                        <li className="d-inline-block ml-2 mt-2 text-white"><i className="fa-solid fa-envelope mr-2"></i> <a href="mailto:proxishieldpune@gmail.com"></a>proxishieldpune@gmail.com</li>
-                        <li className="d-inline-block ml-4 mt-2 text-white"><i className="fa-solid fa-phone mr-2"></i>Call: 0290 898 2340</li>
+                        <li className="d-inline-block ml-2 mt-2 text-white"><i className="fa-solid fa-envelope mr-2"></i><EmailLink email="proxishieldpune@gmail.com" /></li>
+                        <li className="d-inline-block ml-4 mt-2 text-white"><i className="fa-solid fa-phone mr-2"></i>Call: 8805081326</li>
                         <li className="d-inline-block ml-4 mt-2 text-white">Marathi | English</li>
                         <li className="d-inline-block ml-4 mt-2 text-white"><i className="fa fa-facebook mr-2"></i></li>
                         <li className="d-inline-block ml-4 mt-2 text-white"><i className="fa fa-twitter mr-2"></i></li>
@@ -65,10 +66,10 @@ const Nav = () => {
                     </>}
                     <ul className={boxClass.join(' ')}>
                         <li  className="menu-item " >
-                            <NavLink exact active='is-active' onClick={toggleClass} to={`/`}> HOME</NavLink> 
+                            <NavLink exact="true" active='is-active' onClick={toggleClass} to={`/`}> HOME</NavLink> 
                         </li>
                         <li  className="menu-item" >
-                            <NavLink exact active='is-active' onClick={toggleClass} to={`/Company`}> COMPANY </NavLink> 
+                            <NavLink exact='true' active='is-active' onClick={toggleClass} to={`/Company`}> COMPANY </NavLink> 
                         </li>
                         <li onClick={toggleSubmenu} className="menu-item sub__menus__arrows" > <Link to="#"> PRODUCTS <FiChevronDown /> </Link>
                             <ul className={boxClassSubMenu.join(' ')} > 

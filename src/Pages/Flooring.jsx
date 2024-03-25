@@ -1,5 +1,6 @@
 import React from "react";
 import {flooringAndCoatingProducts} from './menu';
+import { Link } from "react-router-dom";
 
 function Flooring(){
     return(
@@ -10,7 +11,7 @@ function Flooring(){
                 <div className="col-12 p-5 bg-light">
                  
                  <ul>
-                    <li className=" d-inline-block ml-3"><a href="#">Home</a></li>
+                    <li className=" d-inline-block ml-3"><Link to={'/'}>Home</Link></li>
                     <li className=" d-inline-block ml-3"><i className="fa-solid fa-chevron-right"></i></li>
                     <li className=" d-inline-block ml-3">Flooring & Coatings</li>
                  </ul>
@@ -43,16 +44,16 @@ function Flooring(){
             {flooringAndCoatingProducts.map((prod) => {
               return (
                 <div className="col-md-4 mb-5">
-                  <div class="card border-warning">
-                    <img src={prod.image} class="card-img-top" alt="..." />
-                    <div class="card-body">
-                      <h5 class="card-title">{prod.title}</h5>
-                      <p class="card-text">{prod.description}</p>
+                  <div className="card border-warning">
+                    <img src={prod.image} className="card-img-top" alt="Description of the " />
+                    <div className="card-body">
+                      <h5 className="card-title">{prod.title}</h5>
+                      <p className="card-text">{prod.description}</p>
                     </div>
-                    <ul class="list-group list-group-flush">
+                    <ul className="list-group list-group-flush">
                       {prod.product_list.map((prod_list) => {
                         return (
-                          <li class="list-group-item">{prod_list.name}</li>
+                          <li className="list-group-item">{prod_list.name}</li>
                         );
                       })}
                     </ul>

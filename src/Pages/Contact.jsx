@@ -1,5 +1,7 @@
 import React from "react";
 import './Style.css';
+import EmailLink from "./EmailLink";
+import { Link } from "react-router-dom";
 export default function Contact(){
     return(
         <>
@@ -8,7 +10,7 @@ export default function Contact(){
                 <div className="col-12 p-5 bg-light">
                  
                  <ul>
-                    <li className=" d-inline-block ml-3"><a href="#">Home</a></li>
+                    <li className=" d-inline-block ml-3"><Link to={'/'}>Home</Link></li>
                     <li className=" d-inline-block ml-3"><i className="fa-solid fa-chevron-right"></i></li>
                     <li className=" d-inline-block ml-3">Company</li>
                  </ul>
@@ -55,7 +57,7 @@ export default function Contact(){
                     <h2>Address</h2>
                     <ul type="none" className="pl-0">
                         <li className="mt-4 font-weight-bold"><i className="text-primary fa-solid fa-location-dot"></i> Registered Office : Proxi Shield Pvt Ltd. <br />   Gat No. 1282 , Ganga club , Haveli , Pune, (Near Panchashil Tower),Kharadi. <br /> Opp. Dhole Patil Engi. College </li>
-                        <li className="mt-4 font-weight-bold"><i className=" text-primary fa-solid fa-envelope"></i> <a href="mailto:proxishieldpune@gmail.com"></a> proxishieldpune@gmail.com</li>
+                        <li className="mt-4 font-weight-bold"><i className=" text-primary fa-solid fa-envelope"></i> <EmailLink email="proxishieldpune@gmail.com" /></li>
                         <li className="mt-4 font-weight-bold"><i className="text-primary fa-solid fa-phone"></i>+91 88050 81326</li>
                     </ul>
                 </div>
