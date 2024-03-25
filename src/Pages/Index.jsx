@@ -1,4 +1,4 @@
-import React, {  useState } from "react";
+import React, { useState } from "react";
 import { Data } from "./menu";
 import "./Style.css";
 import CountUp from "react-countup";
@@ -117,12 +117,12 @@ const Index = () => {
       <section>
         <div className="k2 container">
           <div className="row">
-            <div className=" col-md-6 success-buttons">
+            {/* <div className=" col-md-6 success-buttons">
               {/* <button className="btn btn-secondary ml-4">ARCHITECTS</button>
                                     <button className="btn btn-secondary ml-4">CONTRACTORS</button>
                                     <button className="btn btn-secondary ml-4">HOME OWNERS</button> */}
-            </div>
-            <div className="col-md-6"></div>
+            {/* </div>
+            <div className="col-md-6"></div>  */}
 
             <div className="col-md-9  mt-5">
               <p>
@@ -142,8 +142,10 @@ const Index = () => {
               </ul>
             </div>
             <div className="col-md-3   mt-5">
-              <img src={workerImg} className="img-fluid worker_image" alt="desc"/>
+              <img src={workerImg} className="img-fluid worker_image" alt="desc" />
             </div>
+          </div>
+          <div className="row">
             <div className="col-md-12">
               <p>
                 At <b>Proxy Shield</b>, we continuously push the boundaries of
@@ -166,6 +168,8 @@ const Index = () => {
               </p>
               {/* <p>At Proxi Shield, we don't just deliver solutions—we deliver peace of mind, knowing that every project is fortified by our commitment to excellence and innovation. Join us on our journey towards a safer, more sustainable future in construction.</p> */}
             </div>
+            </div>
+            <div className="row">
             <div className="col-md-12">
               <div className="row">
                 <div className="p-4 col-md-3 mt-4">
@@ -269,37 +273,19 @@ const Index = () => {
         </div>
         <div className="container">
           <div className="row">
-            {items.map((elem) => {
-              const {  image, Name } = elem;
+            {items.map((elem, index) => {
+              const { id ,image, Name } = elem;
               return (
-                <>
-                 <div className=" col-md-4 mt-5  industrial_market_image " key={elem.key}>
-                  <div className="card" >
-                    <img className="card-img-top" src={image} alt="Card cap" />
-                    <div className="card-body">
-                    <h5 className="card-title">{Name}</h5>
-                    </div>
-                  </div>
-                  </div>
-                  {/* <div className=" col-md-4 mt-5 " key={elem.key}>
-                    <div className="wrapper">
-                      <div className="images">
-                        <img
-                          src={image}
-                          alt="mypic"
-                          className="im1"
-                          width="100%"
-                        />
-                        <div className="content">
-                          <a href="#" className="k0">
-                            <i className="fa-solid fa-link"></i>
-                          </a>
-                        </div>
+                
+                  <div className=" col-md-4 mt-5  industrial_market_image " key={index}>
+                    <div className="card" >
+                      <img className="card-img-top" src={image} alt="Card cap" />
+                      <div className="card-body">
+                        <h5 className="card-title">{Name}</h5>
                       </div>
                     </div>
-                    <p className="k9">{Name}</p>
-                  </div> */}
-                </>
+                  </div>
+
               );
             })}
           </div>
@@ -384,7 +370,7 @@ const Index = () => {
       <section className="bg-light bg1 mt-5">
         <div className=" bg2 container-fluid">
           <div className="row">
-            <div className="col-4 mt-5">
+            <div className="col-md-4 mt-5">
               <ScrollTrigger
                 onEnter={() => setCounterStart(true)}
                 onExit={() => setCounterStart(false)}
@@ -399,7 +385,7 @@ const Index = () => {
                 </div>
               </ScrollTrigger>
             </div>
-            <div className="col-4 mt-5">
+            <div className="col-md-4 mt-5">
               <ScrollTrigger
                 onEnter={() => setCounterStart(true)}
                 onExit={() => setCounterStart(false)}
@@ -414,7 +400,7 @@ const Index = () => {
                 </div>
               </ScrollTrigger>
             </div>
-            <div className="col-4 mt-5">
+            <div className="col-md-4 mt-5">
               <ScrollTrigger
                 onEnter={() => setCounterStart(true)}
                 onExit={() => setCounterStart(false)}
@@ -432,11 +418,11 @@ const Index = () => {
           </div>
         </div>
       </section>
-      <section className="bg-light">
+      <section className="bg-light mt-5">
         <div className="container-fluid mt-5">
           <div className="row">
             <div className="col-md-6">
-              <img src={cementIndustryImg} width="100%" alt="som"/>
+              <img src={cementIndustryImg} width="100%" alt="som" />
             </div>
             <div className="col-md-6 mt-5 show-more-section">
               <h4 className="l4 ">CASE STUDIES</h4>
