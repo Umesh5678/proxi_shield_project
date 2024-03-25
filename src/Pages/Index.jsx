@@ -274,7 +274,7 @@ const Index = () => {
         <div className="container">
           <div className="row">
             {items.map((elem, index) => {
-              const { id ,image, Name } = elem;
+              const { image, Name } = elem;
               return (
                 
                   <div className=" col-md-4 mt-5  industrial_market_image " key={index}>
