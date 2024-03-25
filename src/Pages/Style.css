@@ -391,9 +391,7 @@ ul.main-menu>li.menu-item:first-child {
 .menu-item {
   line-height: 30px;
 }
-li {
-  list-style-type: none;
-}
+
 .menu-item a {
   font-size: 20px;
   font-weight: 600;
@@ -514,7 +512,7 @@ li {
   color: #fff;
   padding: 6px 7px;
   border-radius: 5px;
-  margin: 27px auto 0;
+  margin: 12px 0;
   cursor: pointer;
   position: relative;
   z-index: 10037;
@@ -526,7 +524,7 @@ li {
   left: 0;
   z-index: 10007;
   background-color: #d8f1ff;
-  border-bottom: 3px solid #ff3d00;
+ 
   right: 0;
   padding-bottom: 17px;
   padding-top: 57px;
@@ -545,7 +543,7 @@ li {
 
 
 .bg1{
-  height: 400px;
+  min-height: 400px;
   /* background-image: url('Images/w0.jpg'); */
   background-size: 100% 100%;
   
@@ -626,4 +624,78 @@ padding-left: 40px;
 .footer_email a{
   text-decoration: none;
   color: black;
+}
+
+
+@media only screen and (max-width: 767px) {
+ .carousel-item img{
+  height: 250px;
+ }
+
+ .color_format_back{
+  display: none;
+ }
+
+ .worker_image {
+  height: 200px;
+  margin: auto;
+  display: block;
+  margin-top: 0 !important;
+  padding-left: 0;
+
+ }
+
+ .bg2 .col-md-4{
+  border-bottom: 2px solid #462ecb;
+ }
+
+ .k2 .col-md-3{
+  margin-top: 0 !important;
+ }
+
+.l4{
+  margin-left: 10px;
+}
+ 
+ .show-more-section p{
+  margin-top: 10px;
+  display: block;
+  margin: auto;
+  padding: 0 10px;
+ }
+
+ .footer img{
+  border-style: none;
+  height: 200px;
+  width: 200px;
+  display: block;
+  margin: auto;
+ }
+
+ .quick-links{
+    margin-top: 20px;
+    padding-left: 10px !important;
+ }
+
+ .quick-links h6{
+  text-align: center;
+ }
+
+ .contact-info{
+  padding-top: 30px;
+  padding-bottom: 20px;
+ }
+ .follow_us{
+  margin-top: 10px;
+ }
+ .follow_us h2{
+  margin-left: 0 !important;
+ }
+ .k2{
+  height: auto;
+ }
+
+ .industrial_market_image{
+  margin-top: 100px;
+ }
 }

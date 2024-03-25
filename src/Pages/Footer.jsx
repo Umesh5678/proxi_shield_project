@@ -14,13 +14,13 @@ export default function Footer(){
     return(
         <>
         <section style={{backgroundColor: 'rgb(52 192 230 / 99%)'}}>
-        <div className="container-fluid  p-5 " style={{color:"black"}}>
+        <div className="container-fluid  p-5 footer " style={{color:"black"}}>
             <div className="row">
                <div className="col-md-3">
                     <img src={logo} width={300} alt="som"/>
                     
                </div>
-               <div className="col-md-3 pl-5">
+               <div className="col-md-3 pl-5 quick-links">
                 <h2>Quick Links</h2>
                 <Link to={`/`} style={{color:'black'}} onClick={scrollToTop}><h6 className="mt-4">Home</h6></Link>
                 <Link to={`/Company`} style={{color:'black'}} onClick={scrollToTop}><h6 className="mt-4">Comapny</h6></Link>
@@ -30,7 +30,7 @@ export default function Footer(){
                 <Link to={`/Event`} style={{color:'black'}} onClick={scrollToTop}><h6 className="mt-4">Media & Gallary</h6></Link>
 
                </div>
-               <div className="col-md-3">
+               <div className="col-md-3 contact-info">
                     <h2>Contact Info</h2>
                     <p className="mt-4"><i className="text-primary fa-solid fa-location-dot"></i> Registered Office : Proxi Shield Pvt Ltd. <br /> Gat No. 1282 , Ganga club , Haveli , Pune, (Near Panchashil Tower),Kharadi. <br /> Opp. Dhole Patil Engi. College </p>
                     <h6 className="mt-2">Phone:+91 88050 81326</h6>
@@ -40,7 +40,7 @@ export default function Footer(){
                </div>
                
               
-               <div className="col-md-3">
+               <div className="col-md-3 follow_us">
                 <h2 className="ml-5">Follow Us</h2>
                 <ul className="fa-icons-bar"> 
                     <li className="d-inline-block ml-2 mt-3 text-dark"><i className="fa-brands fa-whatsapp "  ></i></li>
