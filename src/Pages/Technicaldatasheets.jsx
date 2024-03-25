@@ -1,7 +1,7 @@
-import React, { useEffect, useState } from "react";
+import React, {  useState } from "react";
 import { AutoComplete } from "primereact/autocomplete";
 import "./Style.css";
-import {jsPDF} from 'jspdf'
+
 
 
 
@@ -38,12 +38,14 @@ export default function Technicaldatasheets() {
 
   const searchProducts = (value, event) => {
     options.map((item) => {
-      if (item.name == value) {
+      if (item.name === value) {
         let array = [];
         array.push(item.name);
         array.push(item.file);
         setSearchProduct(array);
+        return null;
       }
+      return null;
     });
     event.preventDefault();
     setOnGo(true)
@@ -110,7 +112,7 @@ export default function Technicaldatasheets() {
             </div>
             <div className="col-md-8 c4">
             <h3 className="c5">Results</h3>
-              {onGo == "" ? (
+              {onGo === "" ? (
                 <p>no data found</p>
               ) : (
                 <div>

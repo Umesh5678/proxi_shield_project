@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import Menu from "./menu";
+import { Link } from "react-router-dom";
 
  const Event =() =>{
     const[items, setItems]=useState(Menu)
@@ -18,7 +19,7 @@ import Menu from "./menu";
                 <div className="col-12 p-5 bg-light">
                  
                  <ul>
-                    <li className=" d-inline-block ml-3"><a href="#">Home</a></li>
+                    <li className=" d-inline-block ml-3"><Link to={'/'}>Home</Link></li>
                     <li className=" d-inline-block ml-3"><i className="fa-solid fa-chevron-right"></i></li>
                     <li className=" d-inline-block ml-3">Company</li>
                  </ul>

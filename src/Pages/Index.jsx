@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, {  useState } from "react";
 import { Data } from "./menu";
 import "./Style.css";
 import CountUp from "react-countup";
@@ -142,7 +142,7 @@ const Index = () => {
               </ul>
             </div>
             <div className="col-md-3   mt-5">
-              <img src={workerImg} className="img-fluid worker_image" />
+              <img src={workerImg} className="img-fluid worker_image" alt="desc"/>
             </div>
             <div className="col-md-12">
               <p>
@@ -270,14 +270,14 @@ const Index = () => {
         <div className="container">
           <div className="row">
             {items.map((elem) => {
-              const { id, image, Name } = elem;
+              const {  image, Name } = elem;
               return (
                 <>
                  <div className=" col-md-4 mt-5  industrial_market_image " key={elem.key}>
-                  <div class="card" >
-                    <img class="card-img-top" src={image} alt="Card image cap" />
-                    <div class="card-body">
-                    <h5 class="card-title">{Name}</h5>
+                  <div className="card" >
+                    <img className="card-img-top" src={image} alt="Card cap" />
+                    <div className="card-body">
+                    <h5 className="card-title">{Name}</h5>
                     </div>
                   </div>
                   </div>
@@ -315,7 +315,7 @@ const Index = () => {
           <div className="row">
             <div className="col-md-3 mt-5">
               <div className=" l1   ">
-                <img src={TrustImg} width={130} height={130} className="l2" />
+                <img src={TrustImg} width={130} height={130} className="l2" alt="som" />
               </div>
               <p className="l3 ">
                 <b>Trust</b>
@@ -330,7 +330,7 @@ const Index = () => {
             </div>
             <div className="col-md-3 mt-5">
               <div className="l0  ">
-                <img src={Integrity} width={130} height={130} className="l2" />
+                <img src={Integrity} width={130} height={130} className="l2" alt="som" />
               </div>
               <p className="l3">
                 <b>Integrity & Ethics</b>
@@ -345,7 +345,7 @@ const Index = () => {
             </div>
             <div className="col-md-3 mt-5">
               <div className="l1   ">
-                <img src={Innovation} width={130} height={130} className="l2" />
+                <img src={Innovation} width={130} height={130} className="l2" alt="som" />
               </div>
               <p className="l3">
                 <b>Innovation</b>
@@ -360,7 +360,7 @@ const Index = () => {
             </div>
             <div className="col-md-3 mt-5">
               <div className="l0   ">
-                <img src={handshake} width={130} height={130} className="l2" />
+                <img src={handshake} width={130} height={130} className="l2" alt="som" />
               </div>
               <p className="l3">
                 <b>Passion & Commitment</b>
@@ -436,7 +436,7 @@ const Index = () => {
         <div className="container-fluid mt-5">
           <div className="row">
             <div className="col-md-6">
-              <img src={cementIndustryImg} width="100%" />
+              <img src={cementIndustryImg} width="100%" alt="som"/>
             </div>
             <div className="col-md-6 mt-5 show-more-section">
               <h4 className="l4 ">CASE STUDIES</h4>

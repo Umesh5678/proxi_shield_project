@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 export default function Videolib(){
     return(
@@ -9,7 +10,7 @@ export default function Videolib(){
                 <div className="col-12 p-5 bg-light">
                  
                  <ul>
-                    <li className=" d-inline-block ml-3"><a href="#">Home</a></li>
+                    <li className=" d-inline-block ml-3"><Link to={'/'}>Home</Link></li>
                     <li className=" d-inline-block ml-3"><i className="fa-solid fa-chevron-right"></i></li>
                     <li className=" d-inline-block ml-3">Video</li>
                  </ul>
