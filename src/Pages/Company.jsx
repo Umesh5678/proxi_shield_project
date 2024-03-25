@@ -21,12 +21,14 @@ export default function Comapny(){
                     <div className="col-md-12">
                         <h2 className="c1">Company</h2>
                         <h3 className="c2">About us</h3>
-                        <p>At MYK Arment we Set Standards of Excellence & Trust in the Global Construction Chemical Industry. The cornerstone of our business is formulated around the belief that the industry expects much more than just the product / service offered. Hence, our products & services are engineered to:</p>
-                        <p>We constantly strive to raise the bar on the above parameters through innovation on our product & service offerings by working closely with our customers to identify what they need most—whether it’s innovative product development, greater efficiency or application expertise. Together with the customer, we want to make sure that every interaction is a step in our journey towards excellence.</p>
-                        <p>Our service is backed by our strong relationships with architects, contractors, specifiers, building materials suppliers and concrete producers who offer high quality products and industry leading technical support.</p>
-                        <p>Our Product range includes admixtures, grouts & anchors, repair mortars, bonding agents, adhesives, flooring coatings, curing and sealing compounds, dry shake hardeners, joint fillers, sealants, densifiers, waterproofing, repair and other products.</p>
-                        <p>These products are produced in Hyderabad, Bhiwandi ,Kolkata and Vapi. The MYK Arment products leverage cutting edge technology of Schomburg, Germany.</p>
-                        <p>What we have on offer is a unique blend of “German Technology” & Expertise to serve Indian & Global Market.</p>
+                        <p>
+At Proxi Shield, we are dedicated to setting new benchmarks of excellence and reliability within the global construction chemical industry. Our philosophy revolves around the understanding that delivering exceptional products and services goes beyond mere offerings. We believe in crafting solutions that not only meet but exceed industry expectations.</p>
+                        <p>Driven by innovation, we continuously elevate our product and service standards to cater to the evolving needs of our clientele. Collaborating closely with our customers, we pinpoint their specific requirements, whether it's pioneering product advancements, heightened operational efficiency, or specialized application insights. Every engagement with our customers is a progressive stride towards achieving excellence together.</p>
+                        <p>Our commitment is fortified by enduring partnerships with architects, contractors, specifiers, and other industry stakeholders, who provide top-tier products and unparalleled technical guidance. We take pride in our comprehensive product portfolio, which encompasses a diverse range including admixtures, grouts & anchors, repair mortars, adhesives, waterproofing solutions, and more.</p>
+
+                        
+                        <p>Manufactured across multiple locations including Hyderabad, Bhiwandi, Kolkata, and Vapi, our products embody the fusion of cutting-edge technology and expertise sourced from various global partners. Leveraging the pinnacle of innovation, we ensure that our offerings resonate both with the Indian and global markets, providing a distinctive amalgamation of technological prowess and localized expertise. At Proxi Shield, we stand as a beacon of innovation, integrity, and excellence, dedicated to shaping the future of construction chemicals worldwide.</p>
+                        
                     </div>
                 </div>
             </div>

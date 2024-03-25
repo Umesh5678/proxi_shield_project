@@ -1,6 +1,7 @@
 import React,{useState} from 'react';
 import {NavLink, Link} from 'react-router-dom';
 import {FiAlignRight,FiXCircle,FiChevronDown } from "react-icons/fi";
+import logo from './Images/Proxi shield (2) (1).png'
 // import logo from '../../img/logo.png';
 const Nav = () => {
     const [isMenu, setisMenu] = useState(false);
@@ -31,12 +32,12 @@ const Nav = () => {
             <div className="row">
                 <div className="col-md-3">
                     
-                    <center><img src="https://mykarment.com/wp-content/uploads/2018/05/myk-logo.png" width="200"  className=""/></center>
+                    <center><img src={logo} width="200" height={80} className=""/></center>
                 </div>
                 <div className="col-md-9 d-none d-md-block pe-3">
                 <ul>
-                        <li className="d-inline-block ml-2 mt-2 text-white"><i className="fa-solid fa-envelope mr-2"></i>proxyshield@gmail.com</li>
-                        <li className="d-inline-block ml-2 mt-2 text-white"><i className="fa-solid fa-phone mr-2"></i>Call: 0290 898 2340</li>
+                        <li className="d-inline-block ml-2 mt-2 text-white"><i className="fa-solid fa-envelope mr-2"></i> <a href="mailto:proxishieldpune@gmail.com"></a>proxishieldpune@gmail.com</li>
+                        <li className="d-inline-block ml-4 mt-2 text-white"><i className="fa-solid fa-phone mr-2"></i>Call: 0290 898 2340</li>
                         <li className="d-inline-block ml-4 mt-2 text-white">Marathi | English</li>
                         <li className="d-inline-block ml-4 mt-2 text-white"><i className="fa fa-facebook mr-2"></i></li>
                         <li className="d-inline-block ml-4 mt-2 text-white"><i className="fa fa-twitter mr-2"></i></li>

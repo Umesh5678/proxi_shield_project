@@ -6,6 +6,7 @@ import {jsPDF} from 'jspdf'
 
 
 
+
 export default function Technicaldatasheets() {
   const [value, setValue] = useState("");
   const [items, setItems] = useState([]);
@@ -15,15 +16,15 @@ export default function Technicaldatasheets() {
   const options = [
     {
       name: "PROXI FLEX SUPER STRONG",
-      file: "../../downloads/PROXI_FLEX_SUPER_STRONG.pdf",
+      file: "../tds/Proxi (FS-03)Flex Super Strong.pdf",
     },
     {
       name: "PROXI PLUG FAST",
-      file: "../../downloads/PROXI_PLUG_FAST.pdf",
+      file: "../tds/proxi ( PF01) Plug Fast.pdf",
     },
     {
       name: "PROXI PREBOND",
-      file: "../../downloads/PROXI_PREBOND.pdf",
+      file: "../tds/Proxi ( PRE02 )Prebond.pdf",
     },
   ];
 
@@ -53,8 +54,9 @@ export default function Technicaldatasheets() {
     const link = document.createElement('a');
     link.href = array[1];
     link.download = array[0];
-
     link.click();
+
+   
     
   };
 
@@ -76,10 +78,11 @@ export default function Technicaldatasheets() {
           </div>
         </div>
         <div className="container mt-5">
-          <div className="row">
-            <h1 className="c3">Technical Data Sheets</h1>
-            <div className="c4 col-md-12">
-              <h3 className="c5">Search By</h3>
+        <h1 className="c3">Technical Data Sheets</h1>
+        
+          <div className="row mb-5">
+            <div className="c4 col-md-4">
+              <h3 className="c5">Search TDS</h3>
               <form className="mt-2">
                 <div className="form-group">
                   <label>Search by keyword or product name:</label>
@@ -95,49 +98,32 @@ export default function Technicaldatasheets() {
                   />
 
                   <button
-                    className="btn btn-primary mb-1"
+                    className="btn btn-outline-primary mb-1"
                     type="submit"
                     onClick={(event) => searchProducts(value, event)}
                   >
                     Go!
                   </button>
                 </div>
-                <h3>OR</h3>
-                <div className="form-row">
-                  <div className="form-group col-md-4">
-                    <label for="inputState">Product Category</label>
-                    <select
-                      id="inputState"
-                      name="Category"
-                      className="form-control"
-                    >
-                      <option selected>Category</option>
-                      <option>Waterproofing</option>
-                      <option>Industrial flooring</option>
-                      <option>Repair & Reastoration</option>
-                    </select>
-                  </div>
-                  <div className="form-group col-md-4">
-                    <label for="inputState">Product sub Category</label>
-                    <select id="inputState" className="form-control">
-                      <option selected>Choose...</option>
-                      <option>...</option>
-                    </select>
-                  </div>
-                  <div className="form-group col-md-4">
-                    <label for="inputState">Product Name</label>
-                    <select id="inputState" className="form-control">
-                      <option selected>Choose...</option>
-                      <option>...</option>
-                    </select>
-                  </div>
-                </div>
+
               </form>
+            </div>
+            <div className="col-md-8 c4">
+            <h3 className="c5">Results</h3>
+              {onGo == "" ? (
+                <p>no data found</p>
+              ) : (
+                <div>
+                  <span>{searchProduct[0]} </span>
+
+                    <button className="btn btn-outline-primary download-btn"onClick={(event) => downLoadFile(searchProduct, event)}>Download</button>
+                </div>
+              )}
             </div>
           </div>
         </div>
       </section>
-      <section>
+      {/* <section>
         <div className="container mt-5 mb-5">
           <div className="row">
             <div className="c9 col-md-4">
@@ -174,13 +160,13 @@ export default function Technicaldatasheets() {
                 <div>
                   <span>{searchProduct[0]} </span>
 
-                    <button className="btn btn-primary download-btn"onClick={(event) => downLoadFile(searchProduct, event)}>Download</button>
+                    <button className="btn btn-outline-primary download-btn"onClick={(event) => downLoadFile(searchProduct, event)}>Download</button>
                 </div>
               )}
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
     </>
   );
 }
