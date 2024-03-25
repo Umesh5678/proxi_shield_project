@@ -44,7 +44,7 @@ import { Link } from "react-router-dom";
 
                     {
                         items.map((elem)=>{
-                            const { id, image,}=elem;
+                            const {  image}=elem;
                             return(
                                 <div className="hover01  col-md-3">
                                     <figure><img src={image} alt="menupic" width="100%"  className="k1 img-fluid"/></figure>
