@@ -1,7 +1,6 @@
-import React, { useState } from "react";
+import React, {  useState } from "react";
 import { AutoComplete } from "primereact/autocomplete";
 import "./Style.css";
-
 
 
 
@@ -12,21 +11,20 @@ export default function Technicaldatasheets() {
   const [value, setValue] = useState("");
   const [items, setItems] = useState([]);
   const [searchProduct, setSearchProduct] = useState([]);
-  const [onGo, setOnGo] = useState(false);
-  console.log(onGo);
+  const [onGo , setOnGo] = useState(false);
 
   const options = [
     {
       name: "PROXI FLEX SUPER STRONG",
-      file: "../tds/Proxi(FS-03)FlexSuperStrong.pdf",
+      file: "../tds/Proxi (FS-03)Flex Super Strong.pdf",
     },
     {
       name: "PROXI PLUG FAST",
-      file: "../tds/proxi(PF01)PlugFast.pdf",
+      file: "../tds/proxi ( PF01) Plug Fast.pdf",
     },
     {
       name: "PROXI PREBOND",
-      file: "../tds/Proxi(PRE02)Prebond.pdf",
+      file: "../tds/Proxi ( PRE02 )Prebond.pdf",
     },
   ];
 
@@ -53,27 +51,18 @@ export default function Technicaldatasheets() {
     setOnGo(true)
   };
 
-
+  
   const downLoadFile = (array, event) => {
-
-    console.log(array);
     const link = document.createElement('a');
-
     link.href = array[1];
-
     link.download = array[0];
-
-    document.body.appendChild(link);
-    console.log(link);
-
     link.click();
-    document.body.removeChild(link);
 
-
-
+   
+    
   };
 
-
+ 
   return (
     <>
       <section>
@@ -91,8 +80,8 @@ export default function Technicaldatasheets() {
           </div>
         </div>
         <div className="container mt-5">
-          <h1 className="c3">Technical Data Sheets</h1>
-
+        <h1 className="c3">Technical Data Sheets</h1>
+        
           <div className="row mb-5">
             <div className="c4 col-md-4">
               <h3 className="c5">Search TDS</h3>
@@ -122,19 +111,15 @@ export default function Technicaldatasheets() {
               </form>
             </div>
             <div className="col-md-8 c4">
-              <h3 className="c5">Results</h3>
-              {onGo ? (
+            <h3 className="c5">Results</h3>
+              {onGo === "" ? (
+                <p>no data found</p>
+              ) : (
                 <div>
                   <span>{searchProduct[0]} </span>
 
-                  <button className="btn btn-outline-primary download-btn" onClick={(event) => downLoadFile(searchProduct, event)}>Download</button>
-                  {/* <a href="https://drive.google.com/file/d/19OsRpB1FmK7isOBe8RuqDhgL4zHD6lEf/view?usp=drive_link" download="PROXI_PREBOND" target="_blank"
-         rel="noopener noreferrer">Download PDF</a> */} 
+                    <button className="btn btn-outline-primary download-btn"onClick={(event) => downLoadFile(searchProduct, event)}>Download</button>
                 </div>
-
-
-              ) : (
-                <p>no data found</p>
               )}
             </div>
           </div>
