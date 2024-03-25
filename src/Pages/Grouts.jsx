@@ -1,4 +1,5 @@
 import React from "react";
+import {GroutsAndAnchorsProducts} from './menu';
 
 function Grouts(){
     return(
@@ -17,169 +18,51 @@ function Grouts(){
             </div>
             </div>
             <div className="container">
-            <h2 className="c1">Grouts & Anchors</h2>
-                <div className="row">
-                
-                    <div className="col-md-4 mt-5">
-                         <img src="https://mykarment.com/wp-content/uploads/2015/09/Grouts-and-Anchors.png" width="100%"/>
-                    </div>
-                    <div className="col-md-4 mt-5">
-                        <h5>Catergries</h5>
-                        <ul>
-                            <li>Crystalline</li>
-                            <li>Acrylic</li>
-                            <li>External Coatings</li>
-                            <li>Membrane</li>
-                            <li>Cementatious</li>
-                            <li>Cementatious</li>
-                            <li>Poly Urea</li>
-                            <li>Integral Waterproofing</li>
-                            <li>Primers</li>
-                            <li>Liquid Applied Polyurthine Membrane</li>
-                            <li>Retail Range</li>
-                        </ul>
-                         
-                    </div>
-                    <div className="col-md-4">
-                   
-                    </div>
-                </div>
+          <h1 className="c1">Grouts & Anchors</h1>
+          <div className="row">
+            <div className="col-12 categories">
+              <h5>Catergries</h5>
+              <button type="button" className="btn btn-outline-info">Crystalline</button>
+              <button type="button" className="btn btn-outline-info">Acrylic</button>
+              <button type="button" className="btn btn-outline-info">External Coatings</button>
+              <button type="button" className="btn btn-outline-info">Membrane</button>
+              <button type="button" className="btn btn-outline-info">Cementatious</button>
+              <button type="button" className="btn btn-outline-info">Poly Urea</button>
+              <button type="button" className="btn btn-outline-info">Integral Waterproofing</button>
+              <button type="button" className="btn btn-outline-info">Primers</button>
+              <button type="button" className="btn btn-outline-info">Liquid Applied Polyurthine Membrane</button>
+              <button type="button" className="btn btn-outline-info">Retail Range</button>
+             
             </div>
-            <div className="container mt-5">
-                <h4 className="c1">Products</h4>
-                <div className="row">
-                    <div className="col-md-3 mt-5">
-                    <img src="https://mykarment.com/wp-content/uploads/2018/05/Crystalline-250x120.png" />
-                            
+            <div className="col-md-4"></div>
+          </div>
+        </div>
+        <div className="container mt-5 ">
+          <h4 className="c1">Products</h4>
+          <div className="row ">
+            {GroutsAndAnchorsProducts.map((prod) => {
+              return (
+                <div className="col-md-4 mb-5">
+                  <div class="card border-warning">
+                    <img src={prod.image} class="card-img-top" alt="..." />
+                    <div class="card-body">
+                      <h5 class="card-title">{prod.title}</h5>
+                      <p class="card-text">{prod.description}</p>
                     </div>
-                    <div className="col-md-3 mt-5">
-                        <h5>Crystalline</h5>
-                                <ul>
-                                    <li><a href="#">AquaAram Ic</a></li>
-                                    <li><a href="#">AquaArm c-35</a></li>
-                                    <li><a href="#">AquaArm 1M</a></li>
-                                    <li><a href="#">AquaArm Admix</a></li>
-                                 </ul>
-                    </div>
-                    <div className="col-md-3 mt-5">
-                    <img src="https://mykarment.com/wp-content/uploads/2018/05/Crystalline-250x120.png" />
-                            
-                    </div>
-                    <div className="col-md-3 mt-5">
-                        <h5>CEMENTATIOUS</h5>
-                                <ul>
-                                    <li><a href="#">AquaArm 1k</a></li>
-                                    
-                                 </ul>
-                    </div>
-                    <div className="col-md-3 mt-5">
-                    <img src="https://mykarment.com/wp-content/uploads/2018/05/Crystalline-250x120.png" />
-                            
-                    </div>
-                    <div className="col-md-3 mt-5">
-                        <h5>ACRYLIC</h5>
-                                <ul>
-                                    <li><a href="#">AquaAram UN</a></li>
-                                    <li><a href="#">AquaArm 2C</a></li>
-                                    <li><a href="#">AquaArm TC</a></li>
-                                    <li><a href="#">AquaArm TG</a></li>
-                                    <li><a href="#">AquaArm Tufcrete</a></li>
-                                    <li><a href="#">AquaArm Saniflex</a></li>
-                                 </ul>
-                    </div>
-                    <div className="col-md-3 mt-5">
-                    <img src="https://mykarment.com/wp-content/uploads/2018/05/Crystalline-250x120.png" />
-                            
-                    </div>
-                    <div className="col-md-3 mt-5">
-                        <h5>LIQIUD APPLIED POLYURTHINE MEMBRANE</h5>
-                                <ul>
-                                    <li><a href="#">AquaAram   WPU1K</a></li>
-                                    <li><a href="#">AquaArm WPU1K(K)</a></li>
-                                    <li><a href="#">AquaArm WPU 1K-S</a></li>
-                                    <li><a href="#">AquaArm SPU 1K</a></li>
-                                 </ul>
-                    </div>
-                    <div className="col-md-3 mt-5">
-                    <img src="https://mykarment.com/wp-content/uploads/2018/05/Crystalline-250x120.png" />
-                            
-                    </div>
-                    <div className="col-md-3 mt-5">
-                        <h5>POLY UREA</h5>
-                                <ul>
-                                    <li><a href="#">AquaAram Purtech</a></li>
-                                    
-                                 </ul>
-                    </div>
-                    <div className="col-md-3 mt-5">
-                    <img src="https://mykarment.com/wp-content/uploads/2018/05/Crystalline-250x120.png" />
-                            
-                    </div>
-                    <div className="col-md-3 mt-5">
-                        <h5>MEMBRANE</h5>
-                                <ul>
-                                    <li><a href="#">AquaAram Drainboard</a></li>
-                                    <li><a href="#">AquaArm Bridgeshield</a></li>
-                                    <li><a href="#">AquaArm Power Prufe 800</a></li>
-                                    <li><a href="#">AquaArm SBS 3000X</a></li>
-                                    <li><a href="#">AquaAram Self Stick P 250</a></li>
-        
-                                    
-                                 </ul>
-                    </div>
-                    <div className="col-md-3 mt-5">
-                    <img src="https://mykarment.com/wp-content/uploads/2018/05/Crystalline-250x120.png" />
-                            
-                    </div>
-                    <div className="col-md-3 mt-5">
-                        <h5>EXTERNAL COATINGS</h5>
-                                <ul>
-                                    <li><a href="#">AquaAram Coat WAC</a></li>
-                                    <li><a href="#">AquaArm Ultra Coat</a></li>
-                                    <li><a href="#">AquaArm Super Coat</a></li>
-                                    
-                                 </ul>
-                    </div>
-                    <div className="col-md-3 mt-5">
-                    <img src="https://mykarment.com/wp-content/uploads/2018/05/Crystalline-250x120.png" />
-                            
-                    </div>
-                    <div className="col-md-3 mt-5">
-                        <h5>PRIMERS</h5>
-                                <ul>
-                                    <li><a href="#">AquaAram   UniPrimer-GE</a></li>
-                                    <li><a href="#">AquaArm UniPrimer-k</a></li>
-                                    
-                                 </ul>
-                    </div>
-                    <div className="col-md-3 mt-5">
-                    <img src="https://mykarment.com/wp-content/uploads/2018/05/Crystalline-250x120.png" />
-                            
-                    </div>
-                    <div className="col-md-3 mt-5">
-                        <h5>INTEGRAL WATERPROOFING</h5>
-                                <ul>
-                                    <li><a href="#">AquaAram   Proof WP 10</a></li>
-                                    
-                                 </ul>
-                    </div>
-                    <div className="col-md-3 mt-5">
-                    <img src="https://mykarment.com/wp-content/uploads/2018/05/Crystalline-250x120.png" />
-                            
-                    </div>
-                    <div className="col-md-3 mt-5">
-                        <h5>RETAIL RANGE</h5>
-                                <ul>
-                                    <li><a href="#">AquaAram   Top Guard</a></li>
-                                    <li><a href="#">AquaArm FlexiCoat</a></li>
-                                    <li><a href="#">AquaArm SuperFlex</a></li>
-                                    <li><a href="#">AquaArm UniCoat</a></li>
-                                    <li><a href="#">AquaAram MultiCrete</a></li>
-                                    
-                                 </ul>
-                    </div>
+                    <ul class="list-group list-group-flush">
+                      {prod.product_list.map((prod_list) => {
+                        return (
+                          <li class="list-group-item">{prod_list.name}</li>
+                        );
+                      })}
+                    </ul>
+                  </div>
                 </div>
-            </div>
+              );
+            })}
+          </div>
+         
+        </div>
         </section>
         </>
     )

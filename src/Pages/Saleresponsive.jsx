@@ -1,7 +1,27 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import './Style.css';
 
 export default function Saleresponsive(){
+
+    const [cNames, setCNames] = useState([]);
+
+    
+    useEffect(() => {
+      fetch('https://restcountries.com/v3.1/all?fields=name,flags')
+        .then((res) => {
+          return res.json();
+        })
+        .then((data) => {
+          setCNames(data)
+        
+        });
+    }, []);
+
+    const countries = cNames.map((item) => {
+        return item.name.common
+    } )
+    
+    
     return(
         <>
         <section>
@@ -19,14 +39,16 @@ export default function Saleresponsive(){
         </div>
             <div className="container">
             <h1 className="c1">Sales Representative</h1>
+            {/* <center><h1>Coming Soon</h1></center> */}
                 <div className="row">
                     <div className="col-md-4">
                         <p>please select a location below.</p>
                         <div className="c11">
                             <h3 className="c12">Search By</h3>
                             <select id="inputState"  className="c13 form-control">
-                                    <option selected>select City</option>
-                                    <option>...</option>
+                            {countries.map((city, index) => (
+                                <option key={index}>{city}</option>
+                                ))}
                             </select>
                         </div>
 

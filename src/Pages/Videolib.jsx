@@ -11,7 +11,7 @@ export default function Videolib(){
                  <ul>
                     <li className=" d-inline-block ml-3"><a href="#">Home</a></li>
                     <li className=" d-inline-block ml-3"><i className="fa-solid fa-chevron-right"></i></li>
-                    <li className=" d-inline-block ml-3">Company</li>
+                    <li className=" d-inline-block ml-3">Video</li>
                  </ul>
                 </div>
             </div>

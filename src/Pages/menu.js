@@ -78,5 +78,546 @@ const Data=[
     category:"Concrete-Admixture"
    },
 ]
+
+
+
+const Waterproofing_products = [
+    {
+        id : 1,
+        image : 'images/m6.png',
+        title : 'Crystaline',
+        description : 'Use card groups to render cards as a single, attached element with equal width and height columns. Card groups start off stacked and use display',
+        product_list : [
+            {
+                link : '',
+                name : 'AquaAram Ic'
+            },
+            {
+                link : '',
+                name : 'AquaArm c-35'
+            },
+            {
+                link : '',
+                name : 'AquaArm 1M'
+            }
+        ],
+
+    },
+    {
+        id : 2,
+        image : 'images/m6.png',
+        title : 'Crystaline',
+        description : 'Use card groups to render cards as a single, attached element with equal width and height columns. Card groups start off stacked and use display',
+        product_list : [
+            {
+                link : '',
+                name : 'AquaAram Ic'
+            },
+            {
+                link : '',
+                name : 'AquaArm c-35'
+            },
+            {
+                link : '',
+                name : 'AquaArm 1M'
+            }
+        ],
+
+    },
+    {
+        id : 3,
+        image : 'images/m6.png',
+        title : 'Crystaline',
+        description : 'Use card groups to render cards as a single, attached element with equal width and height columns. Card groups start off stacked and use display',
+        product_list : [
+            {
+                link : '',
+                name : 'AquaAram Ic'
+            },
+            {
+                link : '',
+                name : 'AquaArm c-35'
+            },
+            {
+                link : '',
+                name : 'AquaArm 1M'
+            }
+        ],
+
+    },
+    {
+        id : 4,
+        image : 'images/m6.png',
+        title : 'Crystaline',
+        description : 'Use card groups to render cards as a single, attached element with equal width and height columns. Card groups start off stacked and use display',
+        product_list : [
+            {
+                link : '',
+                name : 'AquaAram Ic'
+            },
+            {
+                link : '',
+                name : 'AquaArm c-35'
+            },
+            {
+                link : '',
+                name : 'AquaArm 1M'
+            }
+        ],
+
+    }
+    
+
+]
+
+
+
+const flooringAndCoatingProducts = [
+    {
+        id : 1,
+        image : 'images/m6.png',
+        title : 'Crystaline',
+        description : 'Use card groups to render cards as a single, attached element with equal width and height columns. Card groups start off stacked and use display',
+        product_list : [
+            {
+                link : '',
+                name : 'AquaAram Ic'
+            },
+            {
+                link : '',
+                name : 'AquaArm c-35'
+            },
+            {
+                link : '',
+                name : 'AquaArm 1M'
+            }
+        ],
+
+    },
+    {
+        id : 2,
+        image : 'images/m6.png',
+        title : 'Crystaline',
+        description : 'Use card groups to render cards as a single, attached element with equal width and height columns. Card groups start off stacked and use display',
+        product_list : [
+            {
+                link : '',
+                name : 'AquaAram Ic'
+            },
+            {
+                link : '',
+                name : 'AquaArm c-35'
+            },
+            {
+                link : '',
+                name : 'AquaArm 1M'
+            }
+        ],
+
+    },
+    {
+        id : 3,
+        image : 'images/m6.png',
+        title : 'Crystaline',
+        description : 'Use card groups to render cards as a single, attached element with equal width and height columns. Card groups start off stacked and use display',
+        product_list : [
+            {
+                link : '',
+                name : 'AquaAram Ic'
+            },
+            {
+                link : '',
+                name : 'AquaArm c-35'
+            },
+            {
+                link : '',
+                name : 'AquaArm 1M'
+            }
+        ],
+
+    },
+    {
+        id : 4,
+        image : 'images/m6.png',
+        title : 'Crystaline',
+        description : 'Use card groups to render cards as a single, attached element with equal width and height columns. Card groups start off stacked and use display',
+        product_list : [
+            {
+                link : '',
+                name : 'AquaAram Ic'
+            },
+            {
+                link : '',
+                name : 'AquaArm c-35'
+            },
+            {
+                link : '',
+                name : 'AquaArm 1M'
+            }
+        ],
+
+    }
+] 
+
+
+const RepairAndRestorationProducts = [
+    {
+        id : 1,
+        image : 'images/m6.png',
+        title : 'Crystaline',
+        description : 'Use card groups to render cards as a single, attached element with equal width and height columns. Card groups start off stacked and use display',
+        product_list : [
+            {
+                link : '',
+                name : 'AquaAram Ic'
+            },
+            {
+                link : '',
+                name : 'AquaArm c-35'
+            },
+            {
+                link : '',
+                name : 'AquaArm 1M'
+            }
+        ],
+
+    },
+    {
+        id : 2,
+        image : 'images/m6.png',
+        title : 'Crystaline',
+        description : 'Use card groups to render cards as a single, attached element with equal width and height columns. Card groups start off stacked and use display',
+        product_list : [
+            {
+                link : '',
+                name : 'AquaAram Ic'
+            },
+            {
+                link : '',
+                name : 'AquaArm c-35'
+            },
+            {
+                link : '',
+                name : 'AquaArm 1M'
+            }
+        ],
+
+    },
+    {
+        id : 3,
+        image : 'images/m6.png',
+        title : 'Crystaline',
+        description : 'Use card groups to render cards as a single, attached element with equal width and height columns. Card groups start off stacked and use display',
+        product_list : [
+            {
+                link : '',
+                name : 'AquaAram Ic'
+            },
+            {
+                link : '',
+                name : 'AquaArm c-35'
+            },
+            {
+                link : '',
+                name : 'AquaArm 1M'
+            }
+        ],
+
+    },
+    {
+        id : 4,
+        image : 'images/m6.png',
+        title : 'Crystaline',
+        description : 'Use card groups to render cards as a single, attached element with equal width and height columns. Card groups start off stacked and use display',
+        product_list : [
+            {
+                link : '',
+                name : 'AquaAram Ic'
+            },
+            {
+                link : '',
+                name : 'AquaArm c-35'
+            },
+            {
+                link : '',
+                name : 'AquaArm 1M'
+            }
+        ],
+
+    }
+    
+]
+
+
+const GroutsAndAnchorsProducts = [
+    {
+        id : 1,
+        image : 'images/m6.png',
+        title : 'Crystaline',
+        description : 'Use card groups to render cards as a single, attached element with equal width and height columns. Card groups start off stacked and use display',
+        product_list : [
+            {
+                link : '',
+                name : 'AquaAram Ic'
+            },
+            {
+                link : '',
+                name : 'AquaArm c-35'
+            },
+            {
+                link : '',
+                name : 'AquaArm 1M'
+            }
+        ],
+
+    },
+    {
+        id : 2,
+        image : 'images/m6.png',
+        title : 'Crystaline',
+        description : 'Use card groups to render cards as a single, attached element with equal width and height columns. Card groups start off stacked and use display',
+        product_list : [
+            {
+                link : '',
+                name : 'AquaAram Ic'
+            },
+            {
+                link : '',
+                name : 'AquaArm c-35'
+            },
+            {
+                link : '',
+                name : 'AquaArm 1M'
+            }
+        ],
+
+    },
+    {
+        id : 3,
+        image : 'images/m6.png',
+        title : 'Crystaline',
+        description : 'Use card groups to render cards as a single, attached element with equal width and height columns. Card groups start off stacked and use display',
+        product_list : [
+            {
+                link : '',
+                name : 'AquaAram Ic'
+            },
+            {
+                link : '',
+                name : 'AquaArm c-35'
+            },
+            {
+                link : '',
+                name : 'AquaArm 1M'
+            }
+        ],
+
+    },
+    {
+        id : 4,
+        image : 'images/m6.png',
+        title : 'Crystaline',
+        description : 'Use card groups to render cards as a single, attached element with equal width and height columns. Card groups start off stacked and use display',
+        product_list : [
+            {
+                link : '',
+                name : 'AquaAram Ic'
+            },
+            {
+                link : '',
+                name : 'AquaArm c-35'
+            },
+            {
+                link : '',
+                name : 'AquaArm 1M'
+            }
+        ],
+
+    }
+]
+
+
+
+const BuildingAndJointSealantsProducts = [
+    {
+        id : 1,
+        image : 'images/m6.png',
+        title : 'Crystaline',
+        description : 'Use card groups to render cards as a single, attached element with equal width and height columns. Card groups start off stacked and use display',
+        product_list : [
+            {
+                link : '',
+                name : 'AquaAram Ic'
+            },
+            {
+                link : '',
+                name : 'AquaArm c-35'
+            },
+            {
+                link : '',
+                name : 'AquaArm 1M'
+            }
+        ],
+
+    },
+    {
+        id : 2,
+        image : 'images/m6.png',
+        title : 'Crystaline',
+        description : 'Use card groups to render cards as a single, attached element with equal width and height columns. Card groups start off stacked and use display',
+        product_list : [
+            {
+                link : '',
+                name : 'AquaAram Ic'
+            },
+            {
+                link : '',
+                name : 'AquaArm c-35'
+            },
+            {
+                link : '',
+                name : 'AquaArm 1M'
+            }
+        ],
+
+    },
+    {
+        id : 3,
+        image : 'images/m6.png',
+        title : 'Crystaline',
+        description : 'Use card groups to render cards as a single, attached element with equal width and height columns. Card groups start off stacked and use display',
+        product_list : [
+            {
+                link : '',
+                name : 'AquaAram Ic'
+            },
+            {
+                link : '',
+                name : 'AquaArm c-35'
+            },
+            {
+                link : '',
+                name : 'AquaArm 1M'
+            }
+        ],
+
+    },
+    {
+        id : 4,
+        image : 'images/m6.png',
+        title : 'Crystaline',
+        description : 'Use card groups to render cards as a single, attached element with equal width and height columns. Card groups start off stacked and use display',
+        product_list : [
+            {
+                link : '',
+                name : 'AquaAram Ic'
+            },
+            {
+                link : '',
+                name : 'AquaArm c-35'
+            },
+            {
+                link : '',
+                name : 'AquaArm 1M'
+            }
+        ],
+
+    }
+]
+
+const ConcreteAdmixtureProducts = [
+    {
+        id : 1,
+        image : 'images/m6.png',
+        title : 'Crystaline',
+        description : 'Use card groups to render cards as a single, attached element with equal width and height columns. Card groups start off stacked and use display',
+        product_list : [
+            {
+                link : '',
+                name : 'AquaAram Ic'
+            },
+            {
+                link : '',
+                name : 'AquaArm c-35'
+            },
+            {
+                link : '',
+                name : 'AquaArm 1M'
+            }
+        ],
+
+    },
+    {
+        id : 2,
+        image : 'images/m6.png',
+        title : 'Crystaline',
+        description : 'Use card groups to render cards as a single, attached element with equal width and height columns. Card groups start off stacked and use display',
+        product_list : [
+            {
+                link : '',
+                name : 'AquaAram Ic'
+            },
+            {
+                link : '',
+                name : 'AquaArm c-35'
+            },
+            {
+                link : '',
+                name : 'AquaArm 1M'
+            }
+        ],
+
+    },
+    {
+        id : 3,
+        image : 'images/m6.png',
+        title : 'Crystaline',
+        description : 'Use card groups to render cards as a single, attached element with equal width and height columns. Card groups start off stacked and use display',
+        product_list : [
+            {
+                link : '',
+                name : 'AquaAram Ic'
+            },
+            {
+                link : '',
+                name : 'AquaArm c-35'
+            },
+            {
+                link : '',
+                name : 'AquaArm 1M'
+            }
+        ],
+
+    },
+    {
+        id : 4,
+        image : 'images/m6.png',
+        title : 'Crystaline',
+        description : 'Use card groups to render cards as a single, attached element with equal width and height columns. Card groups start off stacked and use display',
+        product_list : [
+            {
+                link : '',
+                name : 'AquaAram Ic'
+            },
+            {
+                link : '',
+                name : 'AquaArm c-35'
+            },
+            {
+                link : '',
+                name : 'AquaArm 1M'
+            }
+        ],
+
+    }
+]
+
+
+export {Waterproofing_products}
+export {flooringAndCoatingProducts}
+export {RepairAndRestorationProducts}
+export {GroutsAndAnchorsProducts}
+export {BuildingAndJointSealantsProducts}
+export {ConcreteAdmixtureProducts}
 export default Menu;
 export {Data};

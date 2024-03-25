@@ -47,16 +47,16 @@ export default function Contact(){
                             <textarea  className="form-control" rows="5" placeholder="Message*..."></textarea>
                         </div>
                         <div className="col-12 mt-2">
-                            <button className="btn btn-primary btn-lg">Send Message</button>
+                            <button className="btn btn-outline-primary btn-lg">Send Message</button>
                         </div>
                     </div>
                 </div>
                 <div className="col-md-4">
                     <h2>Address</h2>
                     <ul type="none" className="pl-0">
-                        <li className="mt-4 font-weight-bold"><i className="text-primary fa-solid fa-location-dot"></i>Registered officeMYK Arment Private Limited CIN- U24114TG2006PTC050128.8-2-703/A, 3rd Floor Leela Gopal Towers, Rd No: 12,Banjara Hills Hyderabad – 500 034</li>
-                        <li className="mt-4 font-weight-bold"><i className=" text-primary fa-solid fa-envelope"></i>proxishield@gmail.com</li>
-                        <li className="mt-4 font-weight-bold"><i className="text-primary fa-solid fa-phone"></i>+91 8976 567 3401</li>
+                        <li className="mt-4 font-weight-bold"><i className="text-primary fa-solid fa-location-dot"></i> Registered Office : Proxi Shield Pvt Ltd. <br />   Gat No. 1282 , Ganga club , Haveli , Pune, (Near Panchashil Tower),Kharadi. <br /> Opp. Dhole Patil Engi. College </li>
+                        <li className="mt-4 font-weight-bold"><i className=" text-primary fa-solid fa-envelope"></i> <a href="mailto:proxishieldpune@gmail.com"></a> proxishieldpune@gmail.com</li>
+                        <li className="mt-4 font-weight-bold"><i className="text-primary fa-solid fa-phone"></i>+91 88050 81326</li>
                     </ul>
                 </div>
             </div>
