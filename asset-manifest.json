@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/proxi_shield_project/static/css/main.2c3c5053.css",
+    "main.js": "/proxi_shield_project/static/js/main.8513a466.js",
+    "static/js/453.d850c1f7.chunk.js": "/proxi_shield_project/static/js/453.d850c1f7.chunk.js",
+    "static/media/innovation.jpg": "/proxi_shield_project/static/media/innovation.81301b7ff47e1ec4a805.jpg",
+    "static/media/integrety.jpg": "/proxi_shield_project/static/media/integrety.823ada0f595a9c36e00b.jpg",
+    "static/media/cement_Industry.jpg": "/proxi_shield_project/static/media/cement_Industry.544bb86959ed1c551297.jpg",
+    "static/media/PROXI SHIELD LOGO FINAL.png": "/proxi_shield_project/static/media/PROXI SHIELD LOGO FINAL.29178f753d02d125192b.png",
+    "static/media/bg-1.jpg": "/proxi_shield_project/static/media/bg-1.7a50d398bac0be39a48a.jpg",
+    "static/media/trust.jpg": "/proxi_shield_project/static/media/trust.1ef4359353ecfb9a7dad.jpg",
+    "static/media/bg-3.jpg": "/proxi_shield_project/static/media/bg-3.284fba722f0ba0962774.jpg",
+    "static/media/workers.png": "/proxi_shield_project/static/media/workers.920edc9b75852394d084.png",
+    "static/media/bg-2.jpg": "/proxi_shield_project/static/media/bg-2.c4ded0e46649ce064193.jpg",
+    "static/media/Proxi shield (2) (1).png": "/proxi_shield_project/static/media/Proxi shield (2) (1).efda104e3478d27face5.png",
+    "static/media/w2.webp": "/proxi_shield_project/static/media/w2.3006a6be4eac9c7d78f0.webp",
+    "index.html": "/proxi_shield_project/index.html",
+    "main.2c3c5053.css.map": "/proxi_shield_project/static/css/main.2c3c5053.css.map",
+    "main.8513a466.js.map": "/proxi_shield_project/static/js/main.8513a466.js.map",
+    "453.d850c1f7.chunk.js.map": "/proxi_shield_project/static/js/453.d850c1f7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2c3c5053.css",
+    "static/js/main.8513a466.js"
+  ]
+}
